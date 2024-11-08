@@ -113,7 +113,6 @@ gsap.to("#second-section #line-move-down i",{
         trigger:"#second-section #boxcontainer",
         scroller:"body",
         start:"top 50%",
-        markers:true,
         end:"bottom 0%",
         scrub:true,
     }
