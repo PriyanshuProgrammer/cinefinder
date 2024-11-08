@@ -106,14 +106,15 @@ document.querySelector("#first-section #start-searching h1").addEventListener("c
 })
 
 gsap.to("#second-section #line-move-down i",{
-    y:1600,
+    top:"98%",
     duration:10,
     ease:"none",
     scrollTrigger:{
         trigger:"#second-section #boxcontainer",
         scroller:"body",
-        start:"top 100%",
-        end:"bottom 30%",
+        start:"top 50%",
+        markers:true,
+        end:"bottom 0%",
         scrub:true,
     }
 })
